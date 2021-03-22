@@ -27,7 +27,7 @@ num = nrow(y);
 input = rep(1,num)
 A = array(rep(1,3), dim=c(3,1,num))
 mu0 = -.35; Sigma0 = 1; Phi = 1
-Temp = array(c(2/12,5/12,9/12), dim=c(3,1,1))
+Temp = array(c(2/12,5/12,9/12,18/12), dim=c(3,1,1))
 
 # Function to Calculate Likelihood
 Linn = function(para){
